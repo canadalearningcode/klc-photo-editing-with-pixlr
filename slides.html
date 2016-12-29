@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Ladies Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- Takes care of CSS3 prefixes -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- opens all links in a new window -->
+  <base target="_blank">
+</head>
+
+<!-- Timer/progress bar: Define the presentation duration using "data-duration" in minutes. -->
+<body class="en" data-duration="360">
+
+
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/klc-logo-stacked-white.png" alt="Ladies Learning Code logo">Welcome!</h1>
+
+      <div class="instructions">
+        <!-- ADD WIFI INFO HERE -->
+        <h2>Get <br>Connected</h2>
+        <p><strong>Wifi:</strong> Wifi Name</p>
+        <p><strong>Password:</strong> Password</p>
+        <hr>
+
+        <h2>Download <br>Files &<br>Move to<br>Desktop</h2>
+        <p>Puppy Potter: <a href="http://bit.ly/pixlr-demo">bit.ly/pixlr-demo</a></p>
+        <p>Zombified Selfie: <a href="http://bit.ly/pixlr-zombified-selfie">bit.ly/pixlr-zombified-selfie</a></p> <!--link to project files above this comment-->
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Content created by Kassandra Lenters and Eden Beronio for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide intro">
+      <img class="logo" src="framework/img/klc-logo-white.png" alt="Ladies Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Intro to Photo-Editing<br>
+        with Pixlr</span>
+      </h1>
+
+      <!-- FILL IN INSTRUCTOR DETAILS -->
+      <img class="instructor" src="http://placehold.it/225x225" alt="Instructor Name">
+      <h2><span class="cursive">with</span> Instructor name</h2>
+      <ul>
+        <li><a href="mailto:">hello@email.com</a></li>
+        <li><a href="http://website.com">website.com</a></li>
+        <li><a href="http://twitter.com/">@twitter</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <p>In partnership with<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Slides created by <a href="http://christinatruong.com">Christina Truong</a> for <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Use the left <span class="arrow">&#8592;</span> and right <span class="arrow">&#8594;</span> arrow keys to navigate</p>
+      </footer>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Table of Contents
+
+        <div class="table-of-contents"></div>
+
+          <!-- Intro + Example Projects + Guest Speaker (10am)
+
+        Project Ideation + Wireframing (10:15am)
+
+        Intro to HTML + CSS (10:45am)
+
+        Lunch (12:30pm)
+
+        Building time! (1:15pm)
+
+        Demos + Pushing Live (3:30pm) -->
+
+       </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       #Introductions
+     </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Agenda
+
+        Intro to Photo-Editing
+
+        Follow-Along in Pixlr
+
+        Break <!--If 1.5 hour workshop, move break accordingly-->
+
+        Zombified Selfie <!--Insert activity name here-->
+
+       </script>
+    </section>
+
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Coders Code Banner](framework/img/workshop/scroll2.png)
+         ## 1. ASK FOR HELP  <!-- .element: class="delayed" -->
+         ## 2. BE PRESENT  <!-- .element: class="delayed" -->
+         ## 3. TRY YOUR BEST!  <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # What is Code?
+     </script>
+    </section>
+
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Code is..
+       ## A SET OF INSTRUCTIONS THAT TELLS THE COMPUTER WHAT TO DO
+
+       ![Running robot gif](framework/img/workshop/runningrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot.gif)
+       ![eating robot gif](framework/img/workshop/eatingrobot.gif)
+       ![Dancing robot gif](framework/img/workshop/dancingrobot2.gif)
+       ![Dancing robot gif](framework/img/workshop/bluerobot.gif)
+       ![Dancing robot gif](framework/img/workshop/partyrobot.gif)
+     </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Today's Project
+        ## We are learning how to edit photos using Pixlr
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        #Today's Project
+
+        Puppy Potter
+
+        ![haunted house](framework/img/workshop/puppypotter.png)
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        #Today's Project
+        <!--Insert name of activity here-->
+        Zombified Selfie
+
+        <!--Insert example image here-->
+        ![zombie selfie](framework/img/workshop/zombie-selfie-example.jpg)
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #A thousand words...
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        #Every photograph tells a story
+
+        ![https://www.pexels.com/photo/orange-tabby-cat-beside-fawn-short-coated-puppy-24104/](framework/img/workshop/dogcat.jpg)
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/orange-tabby-cat-beside-fawn-short-coated-puppy-24104/"> Cat and Dog image</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/brown-potato-in-front-of-french-fries-162971/](framework/img/workshop/fries.jpeg)
+
+        ##What story is this photo telling?
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/brown-potato-in-front-of-french-fries-162971/ ">Potato image</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        #We can tell a new story through photo-editing
+
+        ![http://i.imgur.com/S1mLm5M.jpg?1](framework/img/workshop/wedding.jpg)
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.facebook.com/QuinnMillerPhotography">Wedding photo by Quinn Miller</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Telling a story
+
+        * Colour
+        * Composition
+
+        ![https://commons.wikimedia.org/wiki/File:Bob_teacher.gif](framework/img/workshop/spongebob.gif)
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://commons.wikimedia.org/wiki/File:Bob_teacher.gif">Spongebob teacher gif</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Colour
+
+        We can use <strong style="color:#f77f18;">colour</strong> to change the mood or feeling of an image
+
+        ![https://www.pexels.com/photo/nature-bird-animal-animals-91220/](framework/img/workshop/bird.jpeg)
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/nature-bird-animal-animals-91220/">Parakeet image</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/wood-nature-sunny-forest-1826/](framework/img/workshop/forest1.jpg)
+
+        ##How does this image make you feel?
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/wood-nature-sunny-forest-1826/">Forest image</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/wood-nature-sunny-forest-1826/](framework/img/workshop/forest2.jpg)
+
+        ##How about this one?
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/wood-nature-sunny-forest-1826/">Forest image (edited)</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Composition
+        * “Putting together”
+        * How things are placed in our photo
+        * How we use space
+        * E.g. cropping
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/sea-sunny-beach-sand-38302/](framework/img/workshop/beach.jpeg)
+
+        ##What story is this photo telling?
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/sea-sunny-beach-sand-38302/">Beach image</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/sea-beach-holiday-vacation-6551/](framework/img/workshop/footprints.jpg)
+
+        ##Does this change the story?
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/sea-beach-holiday-vacation-6551/">Footprints image</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/jumping-cute-playing-animals-4602/](framework/img/workshop/cats.jpg)
+        ##We can remove things from a photo to change the story, too!
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/jumping-cute-playing-animals-4602/">Flying cats image</a>
+        </div>
+
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Pixlr
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Welcome to Pixlr
+        ![Pixlr Layout](framework/img/workshop/pixlrlayout.jpg)
+       </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Main Tools
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Layers
+          ![Pixlr Layout](framework/img/workshop/layers.jpg) <br>
+          <ul>
+            <li>Layers are transparent sheets that we lay on top of each other</li>
+            <li>By using layers, we can easily delete or move around different parts of our project</li>
+            <li>We can move the order of layers (from front to back)</li>
+            <li>We can hide or show layers with the check box</li>
+          </ul>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #History
+        ![Pixlr Layout](framework/img/workshop/history.jpg)
+        <ul>
+          <li>Similar to undo (or Ctrl + Z)</li>
+          <li>History saves all of our actions </li>
+          <li>We can use it to go back in time if we make a mistake</li>
+        </ul>
+      </script>
+    </section>
+
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Free Transform
+        ![Pixlr Layout](framework/img/workshop/Freetransform.jpg)
+          <ul>
+            <li> Free Transform lets us transform (or change) parts of our project</li>
+            <li> Rotate, scale, skew, distort, and perspective </li>
+            <li> Helps us resize parts of our project so they blend nicely </li>
+            <li> Shortcut is Ctrl + T </li>
+          </ul>
+      </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #LET'S GET EDITING
+        ##pixlr.com/editor
+      </script>
+    </section>
+
+
+    <section class="slide" data-markdown>
+        <script type="text/template">
+        # OPEN AN IMAGE
+        ## After downloading the supporting files...
+
+        * Make sure the files are on your Desktop
+        * In Pixlr, go to: File > Open Image > Desktop > Demo (folder) > <strong> puppy.jpg <Strong><br><br>
+          ![https://www.flickr.com/photos/recompose/390543851](framework/img/workshop/puppy-small.jpg)
+
+          ---
+          <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://www.flickr.com/photos/recompose/390543851">Yawning puppy image</a>
+          </div>
+
+        </script>
+    </section>
+
+    <section class="slide two-col-list" data-markdown>
+        <script type="text/template">
+        # SAVE OFTEN
+
+        * Save your image online
+          * Go to File > Save..
+          * Click on the "Pixlr Library" tab<br><br>
+            ![pixlr library](framework/img/workshop/pixlrlib.png)
+        * LOGIN IN:
+          * workshops@kidslearningcode.com
+          * helloworld<br><br>
+            ![save online](framework/img/workshop/saveonline.png)
+
+        </script>
+    </section>
+
+    <section class="slide" data-markdown>
+        <script type="text/template">
+        # SAVE OFTEN
+        * Save as .PXD to continue editing
+          ![save as pxd](framework/img/workshop/savepxd.png)
+
+      </script>
+    </section>
+
+    <section class="slide centered " data-markdown>
+        <script type="text/template">
+        # ADD A LAYER
+        ##Let's add costumes!
+        ![Image as Layer Gif](framework/img/workshop/imageaslayer.gif) <br>
+        Layer > Open Image as Layer > <strong> glasses.jpg <strong>
+        </script>
+    </section>
+
+       <section class="slide centered " data-markdown>
+        <script type="text/template">
+        #  MAGIC WAND
+        ## Let's start to blend these images together
+        ![Magic Wand Gif](framework/img/workshop/magicwand.gif)
+        </script>
+    </section>
+
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # FREE TRANSFORM TOOL
+          ## Let's make these glasses fit
+          ![Scale Gif](framework/img/workshop/scale.gif)<br>
+          USE THE SHORTCUT! <br>
+          <strong> Control T <strong> > scale using mouse <br>
+        </script>
+    </section>
+
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          #  ERASER TOOL
+          ## Welcome to Gryffindor!
+          ![Scale Gif](framework/img/workshop/eraser.gif)<br>
+        </script>
+    </section>
+
+   <section class="slide title" data-markdown>
+      <script type="text/template">
+        #We're getting this wizard to Hogwarts!
+      </script>
+    </section>
+
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # Unlock Background Layer
+          ![UnlockBackground](framework/img/workshop/unlock.jpg)<br>
+        </script>
+    </section>
+
+     <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # LASSO TOOL
+          ## Let's get out of this place!
+          ![Magic Lasso](framework/img/workshop/lasso.gif)<br>
+        </script>
+    </section>
+
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # Let's clean up these edges!
+          ![Eraser Cleanup](framework/img/workshop/erasercleanup.gif)<br>
+        </script>
+    </section>
+
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # Changing Layer Order
+          ## Let's get to Hogwarts!
+          ![Hogwarts](framework/img/workshop/background.gif)<br>
+        </script>
+    </section>
+
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # PENCIL TOOL
+          ## A very important finishing touch!
+          ![Hogwarts](framework/img/workshop/scar.gif)<br>
+        </script>
+    </section>
+
+
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+       ![Hogwarts](framework/img/workshop/dumbledore.gif)<br>
+        </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+       <script type="text/template">
+       #Next Project
+        </script>
+    </section>
+
+    <section class="slide title" data-markdown>
+       <script type="text/template">
+       #Save your work!
+       ##File > Save.. > Pixlr library > OK
+        </script>
+    </section>
+
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Today I Learned...
+
+        <p><strong>I can</strong> create digital drawings using the brush tool</p><!-- .element: class="delayed" -->
+        <p><strong>I can</strong> form objects using basic shapes</p><!-- .element: class="delayed" -->
+        <p><strong>I can </strong> change colours and transparency in my project</p><!-- .element: class="delayed" -->
+        <p><strong>I can</strong> use layers to create depth in my project</p><!-- .element: class="delayed" -->
+        <p><strong>I can</strong> tell a new story by editing an image</p><!-- .element: class="delayed" -->
+        <p><strong>I can </strong> use the account I created to KEEP EDITING!</p><!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+
+    <!-- Last slide -->
+    <section class="slide last">
+      <h1>Thank you!</h1>
+      <h2 class="heading-bg">
+        <span>Intro to Photo-Editing<br>With Pixlr</span>
+      </h2>
+
+      <img class="instructor" src= "http://placehold.it/225x225" alt="Name">
+      <h2><span class="cursive">with</span> Instructor</h2>
+      <ul>
+        <li><a href="mailto:">hello@email.com</a></li>
+        <li><a href="link">personalsite.io</a></li>
+        <li><a href="https://twitter.com/">@twitterhandle</a></li>
+      </ul>
+
+      <p class="attribution">Slide presentation created by <a href="http://christinatruong.com">Christina Truong</a> based on <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> and <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main><!-- cls main section -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Uncomment the plugins you need -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Grabs all the .snippet elements
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
