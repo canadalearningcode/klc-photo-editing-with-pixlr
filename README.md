@@ -31,7 +31,6 @@ Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-do
 
 * Update the slides (in a text editor, like <a href="https://atom.io/">atom.io</a>):
     * Insert the network info and bit.ly links to supporting files (Slide 1)
-    * Edit the facilitator info with your photo and details (Slide 2 and 48)
     * Edit the Agenda to adjust timing and/or activities, if applicable (Slide 5)
     * Edit the Example Project image and URL, if applicable (Slide 11)
 
