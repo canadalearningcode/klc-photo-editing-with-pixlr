@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Kids Learning Code</title>
+  <link rel="stylesheet" href="framework/css/slideshow.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/fonts.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/highlightjs/github.css" data-noprefix>
+  <link rel="stylesheet" href="framework/css/styles.css" data-noprefix>
+  <link rel="shortcut icon" href="framework/img/favicon.ico">
+
+  <!-- S'occupe des préfixes CSS3 -->
+  <script src="framework/scripts/prefixfree.min.js"></script>
+
+  <!-- Ouvre tous les liens dans une nouvelle fenêtre -->
+  <base target="_blank">
+</head>
+
+<!-- Barre de progression / durée : Indiquez la durée de la présentation en minutes avec « data-duration ». -->
+<body class="en" data-duration="360">
+
+    <!--Diapositive 1-->
+  <main>
+    <section class="slide welcome highlight">
+      <h1><img class="logo-stacked" src="framework/img/klc-logo-stacked-white.png" alt="Ladies Learning Code logo">Bienvenue!</h1>
+
+      <div class="instructions">
+        <!-- AJOUTEZ LES INFORMATIONS SUR LE WI-FI -->
+        <h2>Branchez- <br>vous</h2>
+        <p><strong>Wi-Fi :</strong> réseau Wi-Fi</p>
+        <p><strong>Mot de passe :</strong> mot de passe Wi-Fi</p>
+        <hr>
+
+        <h2>Téléchargez les <br>fichiers et <br>déplacez-les sur le bureau</h2>
+        <p>Puppy Potter : <a href="http://bit.ly/pixlr-demo">bit.ly/pixlr-demo</a></p>
+        <p>Autoportrait zombifié : <a href="http://bit.ly/pixlr-zombified-selfie">bit.ly/pixlr-zombified-selfie</a></p> <!--Ajoutez le lien vers les fichiers de l'activité ci-dessus -->
+
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Contenu créé par Kassandra Lenters et Eden Beronio pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Naviguez avec les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span> </p>
+      </footer>
+    </section>
+
+    <!--Diapositive 2-->
+    <section class="slide intro">
+      <img class="logo" src="framework/img/klc-logo-white.png" alt="Ladies Learning Code logo">
+      <h1 class="heading-bg">
+        <span>Retouche d'image<br>
+        avec Pixlr</span>
+      </h1>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+
+      <div class="sponsor">
+        <p>En collaboration avec<br> <img src="framework/img/telus-logo-white.svg" alt="Telus"></p>
+      </div>
+      <footer>
+        <a class="left" rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="framework/img/cc-by-nc.png" /></a>
+        <p class="left">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a> pour <a prefix="cc: http://creativecommons.org/ns#" href="http://ladieslearningcode.com" property="cc:attributionName" rel="cc:attributionURL">Ladies Learning Code</a></p>
+        <p class="right">Naviguez avec les flèches gauche <span class="arrow">&#8592;</span> et droite <span class="arrow">&#8594;</span></p>
+      </footer>
+    </section>
+
+    <!--Diapositive 3-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        # Table des matières
+
+        <div class="table-of-contents"></div>
+
+          <!-- Intro + Exemples de projets + Invité (10 h)
+
+        Remue-méninges + Maquette (10 h 15)
+
+        Intro au HTML + CSS (10 h 45)
+
+        Dîner (12 h 30)
+
+        On construit! (13 h 15)
+
+        Démos + Publication (15 h 30) -->
+
+       </script>
+    </section>
+
+    <!--Diapositive 4-->
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       #Introduction
+     </script>
+    </section>
+
+    <!--Diapositive 5-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Ordre du jour
+
+        Introduction à la retouche de photos
+
+        Démonstration de Pixlr en groupe
+
+        Pause <!--Si l'atelier dure 1,5 heure, déplacez la pause au moment opportun -->
+
+        Autoportrait zombifié <!--Insérez le nom de l'activité ici-->
+
+       </script>
+    </section>
+
+    <!--Diapositive 6-->
+    <section class="slide centered" data-markdown>
+      <script type="text/template">
+       ![Bannière du code du programmeur](framework/img/workshop/scroll2.png)
+          #LE CODE DU PROGRAMMEUR
+         ## 1. DEMANDEZ DE L'AIDE  <!-- .element: class="delayed" -->
+         ## 2. SOYEZ PRÉSENTS  <!-- .element: class="delayed" -->
+         ## 3. FAITES DE VOTRE MIEUX!  <!-- .element: class="delayed" -->
+      </script>
+    </section>
+
+    <!--Diapositive 7-->
+    <section class="slide title" data-toc data-markdown>
+     <script type="text/template">
+       # Qu'est-ce que le code?
+     </script>
+    </section>
+
+    <!--Diapositive 8-->
+    <section class="slide" data-markdown>
+     <script type= "text/template">
+       #Le code, c'est...
+       ## UN ENSEMBLE DE DIRECTIVES DISANT À L'ORDINATEUR QUOI FAIRE
+
+       ![Robot qui court - gif](framework/img/workshop/runningrobot.gif)
+       ![Robot qui danse - gif](framework/img/workshop/dancingrobot.gif)
+       ![Robot qui mange - gif](framework/img/workshop/eatingrobot.gif)
+       ![Robot qui danse - gif](framework/img/workshop/dancingrobot2.gif)
+       ![Robot qui danse - gif](framework/img/workshop/bluerobot.gif)
+       ![Robot qui danse - gif](framework/img/workshop/partyrobot.gif)
+     </script>
+    </section>
+    <!--Diapositive 9-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Le projet du jour
+        ## Nous apprendrons comment retoucher des images avec Pixlr
+      </script>
+    </section>
+
+    <!--Diapositive 10-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        #Le projet du jour
+
+        Puppy Potter
+
+        ![maison hantée](framework/img/workshop/puppypotter.png)
+      </script>
+    </section>
+
+    <!--Diapositive 11-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        #L'activité
+        <!--Insérez le nom de l'activité ici-->
+        Autoportrait zombifié
+
+        <!--Insérez l'exemple d'image ici-->
+        ![autoportrait de zombie](framework/img/workshop/zombie-selfie-example.jpg)
+      </script>
+    </section>
+
+    <!--Diapositive 12-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Une image vaut mille mots...
+      </script>
+    </section>
+
+    <!--Diapositive 13-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        #Chaque photo raconte une histoire
+
+        ![https://www.pexels.com/photo/orange-tabby-cat-beside-fawn-short-coated-puppy-24104/](framework/img/workshop/dogcat.jpg)
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/orange-tabby-cat-beside-fawn-short-coated-puppy-24104/"> Image de chat et de chien</a>
+        </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 14-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/brown-potato-in-front-of-french-fries-162971/](framework/img/workshop/fries.jpeg)
+
+        ##Que dit cette photo?
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/brown-potato-in-front-of-french-fries-162971/ ">Image de patate</a>
+        </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 15-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        #Raconter une histoire en retouchant une image
+
+        ![http://i.imgur.com/S1mLm5M.jpg?1](framework/img/workshop/wedding.jpg)
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.facebook.com/QuinnMillerPhotography">Photo de mariage par Quinn Miller</a>
+        </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 16-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Les éléments de l'image
+
+        * Couleur
+        * Composition
+
+        ![https://commons.wikimedia.org/wiki/File:Bob_teacher.gif](framework/img/workshop/spongebob.gif)
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://commons.wikimedia.org/wiki/File:Bob_teacher.gif">Gif de Bob l'éponge prof</a>
+        </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 17-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Couleur
+
+        Nous pouvons utiliser la <strong style="color:#f77f18;">couleur</strong> pour changer l'ambiance d'une image.
+
+        ![https://www.pexels.com/photo/nature-bird-animal-animals-91220/](framework/img/workshop/bird.jpeg)
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/nature-bird-animal-animals-91220/">Image de perruche</a>
+        </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive 18-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/wood-nature-sunny-forest-1826/](framework/img/workshop/forest1.jpg)
+
+        ##Que ressentez-vous en voyant cette image?
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/wood-nature-sunny-forest-1826/">Image de forêt</a>
+        </div>
+
+      </script>
+    </section>
+    <!--Diapositive  19-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/wood-nature-sunny-forest-1826/](framework/img/workshop/forest2.jpg)
+
+        ##Et en voyant celle-ci?
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/wood-nature-sunny-forest-1826/">Image de forêt (modifiée)</a>
+        </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive  20-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        #Composition
+        * Le « tout »
+        * L'emplacement des éléments sur l'image
+        * L'utilisation de l'espace
+        * Par exemple : une image découpée
+
+      </script>
+    </section>
+
+    <!--Diapositive  21-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/sea-sunny-beach-sand-38302/](framework/img/workshop/beach.jpeg)
+
+        ##Que raconte cette photo?
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/sea-sunny-beach-sand-38302/">Image de plage</a>
+        </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive  22-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/sea-beach-holiday-vacation-6551/](framework/img/workshop/footprints.jpg)
+
+        ##Que raconte-t-elle maintenant?
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/sea-beach-holiday-vacation-6551/">Image de traces de pas</a>
+        </div>
+
+      </script>
+    </section>
+    <!--Diapositive  23-->
+    <section class="slide centered" data-toc data-markdown>
+      <script type="text/template">
+        ![https://www.pexels.com/photo/jumping-cute-playing-animals-4602/](framework/img/workshop/cats.jpg)
+        ##Nous pouvons aussi enlever des éléments d'une image pour en changer le sens!
+
+        ---
+        <div class="dropdown">
+        <button class="dropbtn">Attributions</button>
+        <div class="dropdown-content">
+          <a href="https://www.pexels.com/photo/jumping-cute-playing-animals-4602/">Image de chats volants</a>
+        </div>
+
+      </script>
+    </section>
+
+    <!--Diapositive  24-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Pixlr
+      </script>
+    </section>
+
+    <!--Diapositive  25-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Présentation de Pixlr
+        ![Pixlr - Disposition](framework/img/workshop/pixlrlayout_fr.jpg)
+       </script>
+    </section>
+
+    <!--Diapositive  26-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        # Outils principaux
+      </script>
+    </section>
+
+    <!--Diapositive  27-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Calques
+          ![Disposition de Pixlr](framework/img/workshop/Screenshot_62.png) <br>
+          <ul>
+            <li>Les calques sont des feuilles transparentes que nous empilons.</li>
+            <li>À l'aide des calques, nous pouvons facilement effacer ou déplacer des éléments de notre image.</li>
+            <li>Nous pouvons changer l'ordre des calques (de l'avant-plan à l'arrière-plan).</li>
+            <li>Nous pouvons aussi cacher ou montrer des calques en cochant la case.</li>
+          </ul>
+      </script>
+    </section>
+
+    <!--Diapositive  28-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Historique
+        ![Disposition de Pixlr](framework/img/workshop/Screenshot_63.png)
+        <ul>
+          <li>Ressemble à la fonction « Refaire » (raccourci : Ctrl + Z)</li>
+          <li>L'historique affiche nos actions précédentes. </li>
+          <li>Nous pouvons nous en servir pour revenir en arrière en cas d'erreur.</li>
+        </ul>
+      </script>
+    </section>
+
+    <!--Diapositive  29-->
+    <section class="slide" data-markdown>
+      <script type="text/template">
+        #Transformation libre
+        ![Disposition de Pixlr](framework/img/workshop/Screenshot_64.png)
+          <ul>
+            <li> L'outil de déplacement nous permet de déplacer (transformer librement) des parties de notre image.</li>
+            <li> Nous nous en servons pour tourner, redimensionner, incliner, distorsionner ou changer la perspective d'une image. </li>
+            <li> Il nous permet de redimensionner des parties de l'image pour uniformiser le tout. </li>
+            <li> Le raccourci de l'outil est Ctrl + T.</li>
+          </ul>
+      </script>
+    </section>
+
+    <!--Diapositive  30-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #RETOUCHONS DES IMAGES
+        ##pixlr.com/editor
+      </script>
+    </section>
+
+    <!--Diapositive  31-->
+    <section class="slide" data-markdown>
+        <script type="text/template">
+        # OUVRIR UNE IMAGE
+        ## Après avoir téléchargé les fichiers de l'activité...
+
+        * Assurez-vous que les fichiers sont sur le bureau.
+        * Dans Pixlr, allez dans Fichier > Ouvrir l'image > Bureau > Demo (dossier) > <strong> puppy.jpg </strong><br><br>
+          ![https://www.flickr.com/photos/recompose/390543851](framework/img/workshop/puppy-small.jpg)
+
+          ---
+          <div class="dropdown">
+          <button class="dropbtn">Attributions</button>
+          <div class="dropdown-content">
+            <a href="https://www.flickr.com/photos/recompose/390543851">Image de chiot qui baîlle</a>
+          </div>
+
+        </script>
+    </section>
+
+    <!--Diapositive  32-->
+    <section class="slide two-col-list" data-markdown>
+        <script type="text/template">
+        # ENREGISTREZ VOTRE PROJET SOUVENT
+
+        * Enregistrez votre image en ligne
+          * Allez dans Fichier > Enregistrer...
+          * Cliquez sur l'onglet « Pixlr Library ». <br><br>
+            ![pixlr library](framework/img/workshop/Screenshot_65.png)
+        * CONNECTEZ-VOUS :
+          * workshops@kidslearningcode.com
+          * helloworld<br><br>
+            ![enregistrer en ligne](framework/img/workshop/Screenshot_66.png)
+
+        </script>
+    </section>
+
+    <!--Diapositive  33-->
+    <section class="slide" data-markdown>
+        <script type="text/template">
+        # ENREGISTREZ VOTRE PROJET SOUVENT
+        * Enregistrez-le avec l'extension .PXD pour continuer à le modifier.
+          ![enregistrer en pxd](framework/img/workshop/Screenshot_67.png)
+
+      </script>
+    </section>
+
+    <!--Diapositive  34-->
+    <section class="slide centered " data-markdown>
+        <script type="text/template">
+        # AJOUTEZ UN CALQUE
+        ##Ajoutons des accessoires!!
+        Calque > Ouvrir l'image en tant que calque > <strong> glasses.jpg <strong>
+
+        ![Gif d'image en calque](framework/img/workshop/imageaslayer.gif) <br>
+
+        </script>
+    </section>
+
+    <!--Diapositive  35-->
+       <section class="slide centered " data-markdown>
+        <script type="text/template">
+        #  BAGUETTE MAGIQUE
+        ## D'abord, intégrons l'accessoire à l'image.
+        ![Gif de la baguette magique](framework/img/workshop/magicwand.gif)
+        </script>
+    </section>
+    <!--Diapositive  36-->
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # OUTIL DE DÉPLACEMENT
+          ## Modifions les lunettes.
+          ![Gif de déplacement](framework/img/workshop/scale.gif)<br>
+          UTILISEZ LE RACCOURCI! <br>
+          <strong> Ctrl + T<strong> > et déplacez la souris <br>
+        </script>
+    </section>
+
+    <!--Diapositive  37-->
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          #  GOMME À EFFACER
+          ## Bienvenue à Gryffondor!
+          ![Gif de déplacement](framework/img/workshop/eraser.gif)<br>
+        </script>
+    </section>
+
+    <!--Diapositive  38-->
+   <section class="slide title" data-markdown>
+      <script type="text/template">
+        #Notre sorcier entre à Poudlard!
+      </script>
+    </section>
+
+     <!--Diapositive  39-->
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # Déverrouiller le calque d'arrière-plan
+          Double cliquez sur le cadenas pour déverrouiller le calque.
+
+          ![DéverrouillerCalque](framework/img/workshop/unlock.jpg)<br>
+        </script>
+    </section>
+    <!--Diapositive  40-->
+     <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # LASSO
+          ## Allons-nous-en!
+          ![Lasso magique](framework/img/workshop/lasso.gif)<br>
+        </script>
+    </section>
+    <!--Diapositive  41-->
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # On nettoie les bords!
+          ![Nettoyage avec la gomme à effacer](framework/img/workshop/erasercleanup.gif)<br>
+        </script>
+    </section>
+    <!--Diapositive  42-->
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # Changer l'ordre des calques
+          ## Allons à Poudlard!
+          ![Poudlard](framework/img/workshop/background.gif)<br>
+        </script>
+    </section>
+    <!--Diapositive  43-->
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+          # CRAYON
+          ## Une touche finale très importante!
+          ![Poudlard](framework/img/workshop/scar.gif)<br>
+        </script>
+    </section>
+
+    <!--Diapositive  44-->
+    <section class="slide centered " data-markdown>
+       <script type="text/template">
+       #Bienvenue pour une nouvelle année à Poudlard!
+       ![Poudlard](framework/img/workshop/dumbledore.gif)<br>
+        </script>
+    </section>
+
+    <!--Diapositive  45-->
+    <section class="slide title" data-markdown>
+       <script type="text/template">
+       #Prochaine activité
+        </script>
+    </section>
+
+    <!--Diapositive  46-->
+    <section class="slide title" data-markdown>
+       <script type="text/template">
+       #Enregistrez votre projet!
+       ##Fichier > Enregistrer.. > Pixlr library > OK
+        </script>
+    </section>
+
+    <!--Diapositive  47-->
+    <section class="slide title" data-markdown>
+      <script type="text/template">
+        #DÉMOS
+      </script>
+    </section>
+
+    <!--Diapositive  48-->
+    <section class="slide" data-toc data-markdown>
+      <script type="text/template">
+        # Aujourd'hui, j'ai appris que...
+
+          <p><strong>Je peux</strong> créer des dessins numériques à l'aide du pinceau.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux</strong> créer des objets avec des formes de base.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux </strong> changer les couleurs et le niveau de transparence de mon image.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux</strong> utiliser des calques pour ajouter de la profondeur à mon image.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux</strong> donner un nouveau sens à une image en la retouchant.</p><!-- .element: class="delayed" -->
+        <p><strong>Je peux </strong> utiliser le compte Pixlr que j'ai créé pour CONTINUER À RETOUCHER DES PHOTOS!</p><!-- .element: class="delayed" -->
+
+      </script>
+    </section>
+
+
+    <!-- Dernière diapositive -->
+    <section class="slide last">
+      <h1>Merci!</h1>
+      <h2 class="heading-bg">
+        <span>Retouche d’image <br>avec Pixlr</span>
+      </h2>
+
+      <ul>
+        <li><a href="http://twitter.com/learningcode">@learningcode</a></li>
+        <li><a href="https://twitter.com/search?q=%23kidslearningcode&src=typd">#kidslearningcode</a></li>
+      </ul>
+
+      <p class="attribution">Diapositives créées par <a href="http://christinatruong.com">Christina Truong</a> à partir de  <a href="https://github.com/LeaVerou/csss">Lea Verou's SlideShow</a> et de <a href="http://lab.hakim.se/reveal-js/">reveal.js</a>.</p>
+    </section>
+
+  </main>
+  <!-- section principale cls -->
+
+  <script src="framework/scripts/jquery-1.11.0.min.js"></script>
+  <script src="framework/scripts/slideshow.js"></script>
+
+  <!-- Enlevez les commentaires des modules dont vous avez besoin -->
+  <script src="framework/scripts/plugins/css-edit.js"></script>
+  <script src="framework/scripts/plugins/css-snippets.js"></script>
+  <script src="framework/scripts/plugins/css-controls.js"></script>
+  <!-- <script src="plugins/code-highlight.js"></script>-->
+
+  <script src="framework/scripts/plugins/markdown/marked.js"></script>
+  <script src="framework/scripts/plugins/markdown/markdown.js"></script>
+  <script src="framework/scripts/plugins/highlight/highlight-8.4.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script src="framework/scripts/llc.js"></script>
+  <script>
+    var slideshow = new SlideShow();
+
+    // Regroupe tous les éléments .snippet
+    var snippets = document.querySelectorAll('.snippet');
+    for(var i=0; i<snippets.length; i++) {
+      new CSSSnippet(snippets[i]);
+    }
+  </script>
+</body>
+</html>
