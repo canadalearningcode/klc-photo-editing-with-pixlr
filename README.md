@@ -50,7 +50,7 @@ Youth Facilitator Handbook: <a href="http://bit.ly/youth-facilitator-handbook-do
 
 # ATTRIBUTIONS:
 
-Content created by Kat Barrett, Kassandra Lenters, &amp; Eden Beronio for [Canada Learning Code](http://canadalearningcode.ca/).
+Content created by Kassandra Lenters &amp; Eden Beronio for [Canada Learning Code](http://canadalearningcode.ca/).
 
 [Slide presentation](https://github.com/ladieslearningcode/llc-slidedeck-template) created by [Christina Truong](http://christinatruong.com/) for [Canada Learning Code](http://canadalearningcode.ca/).
 
@@ -120,7 +120,7 @@ La veille de l'atelier
 
 # Sources
 
-Contenu créé par Kat Barrett, Kassandra Lenters, &amp; Eden Beronio pour [Canada en programmation](http://canadalearningcode.ca/fr).
+Contenu créé par Kassandra Lenters &amp; Eden Beronio pour [Canada en programmation](http://canadalearningcode.ca/fr).
 
 [Diapositives](https://github.com/ladieslearningcode/llc-slidedeck-template) créées par [Christina Truong](http://christinatruong.com/) pour [Canada en programmation](http://canadalearningcode.ca/fr).
 
